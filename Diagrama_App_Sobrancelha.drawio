@@ -412,7 +412,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bH4NBQA-FGPVie7lwx8A-0" value="&lt;span style=&quot;font-style: italic; font-weight: 400;&quot;&gt;TB_Produto&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="700" y="1290" width="180" height="190" as="geometry" />
+          <mxGeometry x="720" y="1280" width="180" height="190" as="geometry" />
         </mxCell>
         <mxCell id="bH4NBQA-FGPVie7lwx8A-1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="bH4NBQA-FGPVie7lwx8A-0" vertex="1">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -480,7 +480,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="y2i_fN1ARs3ShBnjBtkt-10" value="&lt;span style=&quot;font-style: italic; font-weight: 400;&quot;&gt;TB_Servico&lt;/span&gt;&lt;span style=&quot;font-style: italic; font-weight: 400;&quot;&gt;Produto&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="460" y="1225" width="180" height="120" as="geometry" />
+          <mxGeometry x="488" y="1240" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="y2i_fN1ARs3ShBnjBtkt-11" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="y2i_fN1ARs3ShBnjBtkt-10">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
