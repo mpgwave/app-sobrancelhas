@@ -1,5 +1,5 @@
-// Template Name: Stylen
-// Template URL:  https://techpedia.co.uk/template/stylen
+// Template Name: Bielson
+// Template URL:  https://techpedia.co.uk/template/Bielson
 // Description: Salon & Spa HTML5 Template
 // Version: 1.0.0
 (function (window, document, $, undefined) {

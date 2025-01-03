@@ -1,6 +1,6 @@
 /*---------------------------------------------"
-Template Name: Stylen
-Template URL:  https://techpedia.co.uk/template/stylen
+Template Name: Bielson
+Template URL:  https://techpedia.co.uk/template/Bielson
 Description: Salon & Spa HTML5 Template
 Version: 1.0.0
 
@@ -37,7 +37,7 @@ STYLE SHEET INDEXING
 |	|___ Slider
 |	|___ Page Start Banner
 |	|___ Discount Banner
-|	|___ Services
+|	|___ Serviços
 |	|___ Products
 |	|___ Team
 |	|___ Gallery
@@ -713,6 +713,10 @@ margin: 100px 0;
   background: #dc343b;
   margin-top: 5px;
 }
+.setting-box ul li .bielson{
+  background: #d0dd14;
+  margin-top: 5px;
+}
 @media only screen and (max-width: 490px) {
   .settings {
     font-size: 25px;
@@ -966,7 +970,7 @@ ul.pagination li a.current {
 /*-------------------------
     Button
 -------------------------*/
-.stylen-btn {
+.Bielson-btn {
   height: auto;
   text-align: center;
   position: relative;
@@ -975,7 +979,7 @@ ul.pagination li a.current {
   transition: all 0.5s;
   cursor: pointer;
 }
-.stylen-btn.btn-primary {
+.Bielson-btn.btn-primary {
   font-weight: 700;
   font-size: 20px;
   letter-spacing: 0.01em;
@@ -983,51 +987,51 @@ ul.pagination li a.current {
   padding: 12px 25px;
   display: inline-block;
   position: relative;
-  background: var(--gradient);
+  background: #c63c6d;
   border: 1px solid var(--color-primary);
   color: var(--color-white);
 }
-.stylen-btn.btn-primary:after {
+.Bielson-btn.btn-primary:after {
   position: absolute;
   vertical-align: middle;
   opacity: 0;  
   right: -15px;
 }
-.stylen-btn.btn-primary:hover{
+.Bielson-btn.btn-primary:hover{
   padding-left: 10px;
   padding-right: 40px;
   color: var(--color-dark);
-  background: var(--color-white);
+  background: #c63c6d;
   border: 1px solid var(--color-primary);
 }
-.stylen-btn.btn-primary:hover:after {
+.Bielson-btn.btn-primary:hover:after {
   opacity: 1;
   right: 15px;
 }
 
-.stylen-btn.btn-primary.right-arrow:after {
+.Bielson-btn.btn-primary.right-arrow:after {
   content:"\f178";
   font-family: var(--font-awesome);
 }
 
-.stylen-btn.btn-primary.paper-plane:after {
+.Bielson-btn.btn-primary.paper-plane:after {
   content:"\f1d8";
   font-family: var(--font-awesome);
   font-weight: lighter;
   position: absolute;
 }
-.stylen-btn.btn-primary.cart:after {
+.Bielson-btn.btn-primary.cart:after {
   content:"\f07a";
   font-family: var(--font-awesome);
 }
-.stylen-btn.btn-primary.btn-white{
-  background: var(--color-white);
+.Bielson-btn.btn-primary.btn-white{
+  background: #c63c6d;
   border: 1px solid var(--color-white);
   color: var(--color-dark);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
-.stylen-btn.btn-sec{
+.Bielson-btn.btn-sec{
   font-weight: 700;
   font-size: 16px;
   letter-spacing: 0.01em;
@@ -1035,32 +1039,32 @@ ul.pagination li a.current {
   padding: 13px 17.5px;
   display: inline-block;
   position: relative;
-  background: var(--gradient);
+  background: #c63c6d;
   border: 1px solid var(--color-primary);
   color: var(--color-white);
 }
-.stylen-btn.btn-sec:hover{
+.Bielson-btn.btn-sec:hover{
   border-radius: 0 32px;
 }
-.stylen-btn.btn-large{
+.Bielson-btn.btn-large{
   font-size: 22px;
 }
 @media only screen and (max-width: 1199px) {
-  .stylen-btn.btn-primary {
+  .Bielson-btn.btn-primary {
     font-size: 18px;
     padding: 9px 20px;
   }
-  .stylen-btn.btn-primary:hover{
+  .Bielson-btn.btn-primary:hover{
     padding-left: 10px;
     padding-right: 30px;
   }
 }
 
 @media only screen and (max-width: 491px) {
-  .stylen-btn {
+  .Bielson-btn {
     padding: 9px 20px;
   }
-  .stylen-btn.btn-primary {
+  .Bielson-btn.btn-primary {
     font-size: 14px;
   }
 }
@@ -1453,7 +1457,7 @@ nav.navbar .mainmenu>.menu-item-has-children a.active:after{
  nav.navbar .mainmenu>.menu-item-has-children>a {
   position: relative;
 }
- nav.navbar .mainmenu>.menu-item-has-children .stylen-submenu {
+ nav.navbar .mainmenu>.menu-item-has-children .Bielson-submenu {
   position: absolute;
   top: 65px;
   right: 0px;
@@ -1469,25 +1473,25 @@ nav.navbar .mainmenu>.menu-item-has-children a.active:after{
   margin: 0;
   box-shadow: 0 13px 48px 0 rgba(0, 0, 0, 0.15);
 }
-nav.navbar .mainmenu>.menu-item-has-children .stylen-submenu a:after{
+nav.navbar .mainmenu>.menu-item-has-children .Bielson-submenu a:after{
  display: none;
 }
- nav.navbar .mainmenu>.menu-item-has-children .stylen-submenu.multiline {
+ nav.navbar .mainmenu>.menu-item-has-children .Bielson-submenu.multiline {
   min-width: 450px;
 }
- nav.navbar .mainmenu>.menu-item-has-children .stylen-submenu.multiline li {
+ nav.navbar .mainmenu>.menu-item-has-children .Bielson-submenu.multiline li {
   display: inline-block;
   width: 47%;
   text-align: left;
 }
- nav.navbar .mainmenu>.menu-item-has-children .stylen-submenu li {
+ nav.navbar .mainmenu>.menu-item-has-children .Bielson-submenu li {
   margin: 0;
   opacity: 0;
   -webkit-transform: translateX(20px);
   -ms-transform: translateX(20px);
   transform: translateX(20px);
 }
- nav.navbar .mainmenu>.menu-item-has-children .stylen-submenu li a {
+ nav.navbar .mainmenu>.menu-item-has-children .Bielson-submenu li a {
   position: relative;
   font-weight: 600;
   font-size: 16px;
@@ -1496,19 +1500,19 @@ nav.navbar .mainmenu>.menu-item-has-children .stylen-submenu a:after{
   padding: 7px 15px;
   display: block;
 }
- nav.navbar .mainmenu>.menu-item-has-children .stylen-submenu li a:hover {
+ nav.navbar .mainmenu>.menu-item-has-children .Bielson-submenu li a:hover {
   color: var(--color-primary);
 }
- nav.navbar .mainmenu>.menu-item-has-children .stylen-submenu li a.active {
+ nav.navbar .mainmenu>.menu-item-has-children .Bielson-submenu li a.active {
   color: var(--color-primary);
 }
- nav.navbar .mainmenu>.menu-item-has-children:hover .stylen-submenu {
+ nav.navbar .mainmenu>.menu-item-has-children:hover .Bielson-submenu {
   opacity: 1;
   visibility: visible;
   z-index: 9;
   right: 0;
 }
- nav.navbar .mainmenu>.menu-item-has-children:hover .stylen-submenu li {
+ nav.navbar .mainmenu>.menu-item-has-children:hover .Bielson-submenu li {
   opacity: 1;
   -webkit-transform: translateX(0);
   -ms-transform: translateX(0);
@@ -1570,7 +1574,7 @@ nav.navbar .mainmenu>.menu-item-has-children .stylen-submenu a:after{
     font-weight: bolder;
     font-size: 25px;
   }
-  nav.navbar .mainmenu>.menu-item-has-children .stylen-submenu {
+  nav.navbar .mainmenu>.menu-item-has-children .Bielson-submenu {
     top: 40px;
   }
    nav .right-nav{
@@ -1588,10 +1592,10 @@ nav.navbar .mainmenu>.menu-item-has-children .stylen-submenu a:after{
   nav.navbar .mainmenu>li>a {
     font-size: 18px;
   }
-  nav.navbar .mainmenu>.menu-item-has-children .stylen-submenu.multiline {
+  nav.navbar .mainmenu>.menu-item-has-children .Bielson-submenu.multiline {
     min-width: 300px;
   }
-  nav.navbar .mainmenu>.menu-item-has-children .stylen-submenu li a {
+  nav.navbar .mainmenu>.menu-item-has-children .Bielson-submenu li a {
     padding: 7px 5px;
     font-size: 14px;
   }
@@ -2443,44 +2447,44 @@ nav.navbar .mainmenu>.menu-item-has-children .stylen-submenu a:after{
   }
 }
 /*-------------------------
-    Services
+    Serviços
 -------------------------*/
 
-.services.style-1 .service-box{
+.Serviços.style-1 .service-box{
   transition: all 0.3s ease-in-out;
 }
-.services.style-1 .service-box:hover{
+.Serviços.style-1 .service-box:hover{
   transform: translateY(-10px);
 }
-.services.style-1 .service-box.left-radius{
+.Serviços.style-1 .service-box.left-radius{
   box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.2);
   border-radius: 190px 0px 168.75px 168.75px;
 }
-.services.style-1 .service-box:hover.left-radius{
+.Serviços.style-1 .service-box:hover.left-radius{
   transform: translateY(-10px);
 }
-.services.style-1 .service-box.right-radius{
+.Serviços.style-1 .service-box.right-radius{
   box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.2);
   border-radius: 0px 190px 168.75px 168.75px;
 }
-.services.style-1 .service-box:hover.right-radius{
+.Serviços.style-1 .service-box:hover.right-radius{
   transform: translateY(-10px);
 }
-.services.style-1 .service-box.left-radius img{
+.Serviços.style-1 .service-box.left-radius img{
   position: relative;
   z-index: -1;
   border-radius: 168.75px 0px 0px 0px;
 }
-.services.style-1 .service-box.right-radius img{
+.Serviços.style-1 .service-box.right-radius img{
   position: relative;
   z-index: -1;
   border-radius: 0px 168.75px 0px 0px;
 }
-.services.style-1 .service-box .content{
+.Serviços.style-1 .service-box .content{
   padding: 20px 30px 55px;
   text-align: center;
 }
-.services.style-1 .service-box .content h3{
+.Serviços.style-1 .service-box .content h3{
   font-weight: 700;
   font-size: 30px;
   line-height: 37px;
@@ -2488,7 +2492,7 @@ nav.navbar .mainmenu>.menu-item-has-children .stylen-submenu a:after{
   color: var(--color-dark);
   margin-bottom: 8px;
 }
-.services.style-1 .service-box .content p{
+.Serviços.style-1 .service-box .content p{
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -2497,23 +2501,23 @@ nav.navbar .mainmenu>.menu-item-has-children .stylen-submenu a:after{
   color: var(--color-grey);
   margin-bottom: 24px;
 }
-.services.style-2 .service-box{
+.Serviços.style-2 .service-box{
   box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
   margin-bottom: 30px;
   transition: all 0.3s ease-in-out;
 }
 
-.services.style-2 .service-box img{
+.Serviços.style-2 .service-box img{
   position: relative;
   z-index: -1;
   border-radius: 15px 15px 0px 0px;
 }
-.services.style-2 .service-box .content{
+.Serviços.style-2 .service-box .content{
   padding: 20px 30px 30px;
   text-align: center;
 }
-.services.style-2 .service-box .content h3{
+.Serviços.style-2 .service-box .content h3{
   font-weight: 700;
   font-size: 30px;
   line-height: 37px;
@@ -2521,7 +2525,7 @@ nav.navbar .mainmenu>.menu-item-has-children .stylen-submenu a:after{
   color: var(--color-dark);
   margin-bottom: 8px;
 }
-.services.style-2 .service-box .content p{
+.Serviços.style-2 .service-box .content p{
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
