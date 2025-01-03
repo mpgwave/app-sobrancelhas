@@ -987,7 +987,7 @@ ul.pagination li a.current {
   padding: 12px 25px;
   display: inline-block;
   position: relative;
-  background: #c63c6d;
+  background: var(--gradient);
   border: 1px solid var(--color-primary);
   color: var(--color-white);
 }
